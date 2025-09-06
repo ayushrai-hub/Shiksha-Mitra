@@ -21,13 +21,13 @@ const Footer: React.FC = () => {
               accountability, and shared wisdom. Rooted in ancient Vedic wisdom, designed for the modern world.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-gray-700 transition-colors">
+              <a href="mailto:shiksha.mitra.buddy@gmail.com" aria-label="Contact via email" className="bg-gray-800 p-2 rounded-lg hover:bg-gray-700 transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-gray-700 transition-colors">
+              <a href="https://x.com/ShikshaMit8546" target="_blank" rel="noopener noreferrer" aria-label="Follow on X (formerly Twitter)" className="bg-gray-800 p-2 rounded-lg hover:bg-gray-700 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-gray-700 transition-colors">
+              <a href="https://www.instagram.com/shiksha.mitra.official/" target="_blank" rel="noopener noreferrer" aria-label="Follow on Instagram" className="bg-gray-800 p-2 rounded-lg hover:bg-gray-700 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               <li><a href="#concept" className="hover:text-emerald-400 transition-colors">The Concept</a></li>
               <li><a href="#how-it-works" className="hover:text-emerald-400 transition-colors">How It Works</a></li>
               <li><a href="#tools" className="hover:text-emerald-400 transition-colors">Built-in Tools</a></li>
-              <li><a href="#" className="hover:text-emerald-400 transition-colors">Find Your Mitra</a></li>
+              <li><a href="/find-mitra" className="hover:text-emerald-400 transition-colors">Find Your Mitra</a></li>
             </ul>
           </div>
           
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Shiksha-Mitra. Built with <Heart className="h-4 w-4 text-red-500 inline mx-1" /> for human connection and growth.
+              2025 Shiksha-Mitra. Built with <Heart className="h-4 w-4 text-red-500 inline mx-1" /> for human connection and growth.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-emerald-400 text-sm transition-colors">Terms of Service</a>
