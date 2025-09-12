@@ -2,6 +2,13 @@ import React from 'react';
 import { Search, Users, Clock, Globe, Target } from 'lucide-react';
 
 const FindMitra: React.FC = () => {
+  const handleJoinWaitlistClick = () => {
+    const modalFunc = (window as any).openWaitlistModal;
+    if (modalFunc) {
+      modalFunc();
+    }
+  };
+
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -119,7 +126,10 @@ const FindMitra: React.FC = () => {
             <p className="text-lg mb-6">
               Join our early community and be among the first to experience the power of Shiksha-Mitra
             </p>
-            <button className="bg-white text-emerald-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors font-semibold">
+            <button
+              onClick={handleJoinWaitlistClick}
+              className="bg-white text-emerald-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors font-semibold cursor-pointer"
+            >
               Join the Waitlist
             </button>
           </div>

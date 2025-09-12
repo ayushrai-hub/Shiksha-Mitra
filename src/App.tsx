@@ -12,6 +12,7 @@ import Tools from './components/Tools';
 import Compassion from './components/Compassion';
 import FindMitra from './components/FindMitra';
 import Footer from './components/Footer';
+import WaitlistModal from './components/WaitlistModal';
 
 // Main Application Content
 function AppContent() {
@@ -41,6 +42,7 @@ function AppContent() {
               Get Started
             </button>
           </div>
+          <WaitlistModal />
         </div>
       );
     } else {

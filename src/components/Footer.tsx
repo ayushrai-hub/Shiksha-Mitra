@@ -39,7 +39,19 @@ const Footer: React.FC = () => {
               <li><a href="#concept" className="hover:text-emerald-400 transition-colors">The Concept</a></li>
               <li><a href="#how-it-works" className="hover:text-emerald-400 transition-colors">How It Works</a></li>
               <li><a href="#tools" className="hover:text-emerald-400 transition-colors">Built-in Tools</a></li>
-              <li><a href="#" className="hover:text-emerald-400 transition-colors">Find Your Mitra</a></li>
+              <li>
+                <button
+                  onClick={() => {
+                    const modalFunc = (window as any).openWaitlistModal;
+                    if (modalFunc) {
+                      modalFunc();
+                    }
+                  }}
+                  className="hover:text-emerald-400 transition-colors bg-transparent border-none text-left w-full cursor-pointer"
+                >
+                  Find Your Mitra
+                </button>
+              </li>
             </ul>
           </div>
           
